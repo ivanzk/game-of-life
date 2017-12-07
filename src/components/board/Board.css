@@ -1,0 +1,7 @@
+.Board {
+  margin: 16px auto;
+  display: inline-block;
+  background-color: #CFD8DC;
+  border: 8px solid #455A64;
+  border-radius: 4px;
+  box-shadow: 0px 4px 16px 0px #607D8B; }

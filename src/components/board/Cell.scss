@@ -1,0 +1,17 @@
+@import 'shared-styles.scss';
+
+.Cell {
+	width: 15px;
+	height: 15px;
+	margin: 1px;
+	display: inline-block;
+	cursor: pointer;
+}
+
+.alive {
+	background-color: $darkPrimaryColor;
+}
+
+.dead {
+	background-color: $textIconsColor;
+}

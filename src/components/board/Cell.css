@@ -1,0 +1,12 @@
+.Cell {
+  width: 15px;
+  height: 15px;
+  margin: 1px;
+  display: inline-block;
+  cursor: pointer; }
+
+.alive {
+  background-color: #455A64; }
+
+.dead {
+  background-color: #FFFFFF; }

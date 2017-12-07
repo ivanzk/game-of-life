@@ -1,0 +1,10 @@
+@import 'shared-styles.scss';
+
+.Board {
+	margin: $marginLg auto;
+	display: inline-block;
+	background-color: $lightPrimaryColor;
+	border: 8px solid $darkPrimaryColor;
+	border-radius: 4px;
+	box-shadow: 0px 4px 16px 0px $primaryColor;
+}

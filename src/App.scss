@@ -1,0 +1,53 @@
+@import 'shared-styles.scss';
+
+.App {
+  text-align: center;
+	cursor: default;
+}
+
+.App-header {
+  background-color: $headerBgColor;
+  padding: 16px;
+  color: $textIconsColor;
+	display: grid;
+	grid-template-columns: 1fr 10fr 1fr;
+	align-items: center;
+}
+
+.App-title {
+	grid-column-start: 2;
+	
+	h1 {
+		font-size: 2em;
+		margin: auto;
+	}
+}
+
+.App-github {
+	grid-column-start: 3;
+	text-align: center;
+	
+	a {
+		color: $textIconsColor;
+		transition: $mui-transition;
+	}
+	
+	a:hover {
+		color: $lightPrimaryColor;
+	}
+}
+
+
+@media only screen and (max-width: 479px) {
+	.App-header {
+		grid-template-columns: auto auto;
+	}
+	
+	.App-title {
+		grid-column: 1;
+	}
+	
+	.App-github {
+		grid-column: 2;
+	}
+}

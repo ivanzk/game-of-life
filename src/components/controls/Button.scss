@@ -1,0 +1,25 @@
+@import 'shared-styles.scss';
+
+.Button {
+	button {
+		cursor: pointer;
+		border: none;
+		background-color: $darkPrimaryColor;
+		color: $textIconsColor;
+		transition: $mui-transition;
+		box-shadow: 0px 4px 8px 0px $primaryColor;
+	}
+	button:hover {
+		background-color: $primaryColor;
+	}
+}
+
+.disabled {
+	button {
+		cursor: default;
+		opacity: .75;
+	}
+	button:hover {
+		background-color: $darkPrimaryColor;
+	}
+}
